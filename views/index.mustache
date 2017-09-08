@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset=“utf-8”>
+   <link rel="stylesheet" href="/CSS/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
+   <title>Todolist</title>
+ </head>
+ <header>
+     <h1> Todo List</h1>
+ </header>
+ <body>
+
+<div class="todo">
+<form action="/" method="post">
+    <div class="form">
+       <label for=""> Add Todo list</label>
+         <input class="input" type="text" name="todo" placeholder="add todo list" value="">
+         <button class="addbutton"type="submit" name="" value="add todo"> ADD </button>
+     </div>
+</form>
+</div>
+
+{{#todos}}
+
+<div class="show">
+    <h2>{{task}}</h2>
+</div>
+
+<div class="finish">
+    <form class="" action="completed" method="post">
+    <button type="submit" name="button" value="{{id}}"> I Finish!</button>
+    </form>
+  </div>
+
+
+  <div class="todo">
+    <form class="form" action="/edit" method="post">
+    <input class="edit-input" type="text" name="edit" value="" placeholder="update your todo">
+    <button class="edit" type="submit" name="edit" value="{{id}}"> Edit </button>
+    </div>
+    </form>
+{{/todos}}
+
+<div class="Allfinish">
+    <form class="" action="deleteAll" method="post">
+        <button class="delete" type="submit" name="button"> YES, IT'S ALL DONE! </button>
+    </form>
+
+</div>
+
+ </body>
+</html>

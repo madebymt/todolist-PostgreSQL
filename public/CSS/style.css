@@ -1,0 +1,92 @@
+/*input[type=text]{
+    width: 400px;
+    padding: 20px;
+}*/
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    background: #89bdd3;
+    padding:80px;
+    text-align: center;
+}
+
+
+label{
+    font-family: 'Open Sans', sans-serif;
+    color:#313267;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    font-size: 20px;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    color:#313267;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    background: #313267;
+    padding:10px;
+    border-radius: 20px;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.edit {
+    background: #7C99B4;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.delete {
+    background: red;
+    color:white;
+    width:200px;
+    padding:10px;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+}
+
+.show {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.edit-input {
+    width: 200px;
+    padding:5px;
+}
+
+.add {
+    width: 400px;
+    padding: 20px;
+    background: #e05038;
+}
+
+input {
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.finish {
+    margin: 15px;
+}
+
+.addbutton {
+    background: #F46666;
+    width: 100px;
+}
